@@ -1,0 +1,25 @@
+Python 里布尔值（bool）为 False 的对象有：
+
+为0的数字，包括0、0.0、0L、0.0+0.0j空字符串，
+
+null
+
+包括''、""、''''''、""""""表示空值的None空集合
+
+包括()，[]，{}
+
+None是python中的一个特殊值，表示什么都没有，它和0、空字符、False、空集合都不一样。
+
+False为False，其他都为True 。
+
+alert(new Boolean(-0)); // false // 
+
+alert(new Boolean(null)); // false // 
+
+alert(new Boolean(NaN)); // false // 
+
+alert(new Boolean(undefined)); // false // 
+
+alert(new Boolean("")); // false // 
+
+alert(new Boolean(false)); // false //
